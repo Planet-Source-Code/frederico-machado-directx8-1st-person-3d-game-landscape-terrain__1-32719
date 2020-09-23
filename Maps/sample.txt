@@ -1,0 +1,29 @@
+; set color of ambient light
+setamblight
+70,70,70
+
+; turn lights on
+turnlightson
+
+camerapos
+50,0,20
+
+sky
+0,1,2,3,4,5
+
+light
+40,50,40,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0.05,0,0,0,0,1000
+
+terrain
+height.bmp,10
+
+tree
+3,4,30,0,30,0
+tree
+3,4,60,0,10,0
+tree
+3,4,20,0,60,0
+tree
+3,4,50,0,75,0
+tree
+3,4,30,0,50,0
